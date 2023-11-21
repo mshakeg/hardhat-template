@@ -33,7 +33,7 @@
     "eslint-config-prettier": "^8.5.0",
     "ethers": "^5.7.2",
     "fs-extra": "^10.1.0",
-    "hardhat": "^2.12.2",
+    "hardhat": "^2.19.1",
     "hardhat-deploy": "^0.11.29",
     "hardhat-gas-reporter": "^1.0.9",
     "lodash": "^4.17.21",
@@ -81,5 +81,10 @@
     "task:setGreeting": "hardhat task:setGreeting",
     "test": "hardhat test",
     "typechain": "cross-env TS_NODE_TRANSPILE_ONLY=true hardhat typechain"
+  },
+  "dependencies": {
+    "@cryptoalgebra/integral-base-plugin": "^0.1.0",
+    "@cryptoalgebra/integral-core": "^0.2.0",
+    "@cryptoalgebra/integral-periphery": "^0.2.0"
   }
 }
